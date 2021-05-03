@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    font-family:'Merriweather', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #fdbaf8 !important;
+}
+
+.contenido{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.navegacion{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 12px 0;
+    background: #edffa9;
+    transition: all 0.3s ease;
+}
+
+.navegacion .contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacion .menu{
+    display: inline-flex;
+}
+
+.navegacion .img-logo{
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    left: 160px;
+    top: 1px;
+    z-index: 2;
+}
+
+.menu li a{
+    list-style: none;
+}
+
+.menu li a{
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover{
+    color: cyan;
+}
+
+.principal{
+    display: block;
+    padding: 80px;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 140px;
+    line-height: 30px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 40px;
+    background: #edffa9;
+    padding: 10px;
+    color:black;
+    font-size: 14px;
+}
+
+.texto p{
+    padding: 20px 50px 20px 70px;
+}
+
+.principal img{
+    display: block;
+    margin: 0px auto;
+    padding: 40px 0px 40px 0px;
+}
+
+.principal .descripcion{
+    display: block;
+    text-align: center;
+}
+
+.lateralD{
+    display: block;
+    float: right;
+    width: 20%;
+    border: 5px solid white;
+    margin-top: 200px;
+    background: #fff;
+    padding: 20px;
+}
+
+.lateralI{
+    display: block;
+    float: left;
+    width: 20%;
+    border: 5px solid white;
+    margin-top: 200px;
+    background: #fff;
+    padding: 20px;
+}
+
+/*Pagina Descripcion*/
+
+.descripcion{
+    display: block;
+    padding: 20px;
+    width: 100%;
+}
+
+.descripcion dt{
+    display: block;
+    padding: 20px 50px 20px 50px;
+}
+
+.text p{
+    padding: 20px 50px 20px 70px;
+}
+
+.play,
+.video{
+    display: block;
+    width: auto;
+    margin: 0px auto;
+    padding: px 0px 50px 0px;
+}
+
+.parrafos p{
+    display: block;
+    padding: 10px 200px 10px 200px;
+    text-align: justify;
+}
+
+.imagenes-descr{
+    display: block;
+    margin: 0px auto;
+    padding: 60px 0px 60px 0px;
+}
+
+
+/*Puntos Importantes*/
+.principal imagen{
+    display: block;
+    margin: 0px auto;
+    padding: 40px 0px 40px 0px;
+}
+
+/* Contacto */
+.img-contacto{
+    padding-top: 90px !important;
+}
+.img-contacto img{
+    display: block;
+    margin: 0px auto;
+    width: 40%;
+}
+.principal{
+    display: block;
+    background-color: #fff;
+    margin: 0px auto;
+    width: 40%;
+    text-align: center;
+    border: 2px solid white;
+}
